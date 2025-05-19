@@ -1,0 +1,27 @@
+.venue {
+    background: #f9f9fb;
+    max-width: 320px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    color: #5a2a82; /* tmavší fialová */
+}
+
+.venue--name {
+    font-family: 'Garamond', serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+    color: #5a2a82;
+}
+
+.venue--adress,
+.venue--city {
+    font-family: 'Garamond', serif;
+    font-size: 1rem;
+    margin: 0.2rem 0;
+    color: #7b4aa2;
+}

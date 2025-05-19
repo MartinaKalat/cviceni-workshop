@@ -1,34 +1,36 @@
-.instuctor {
-    background: #efefef;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.instructor {
+    background: #f9f9fb;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
     font-size: 1rem;
-
-
+    max-width: 320px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    color: #5a2a82; /* tmavší fialová */
 }
 
 .instructorImg {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 4rem;
-    width: 100%;
-    height: 12rem;
-    border-radius: 10% / 50%;
-    border: 2px solid white;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 1rem auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #a16fbf; /* světlejší fialová */
+    box-shadow: 0 2px 8px rgba(161,111,191,0.5);
 }
 
-h4 {
+.instructor h4 {
     font-size: 1.8rem;
-    color: purple;
-    text-align: center;
-    font-family: Garamond;
-    font-weight: bold;
+    font-family: 'Garamond', serif;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
 }
 
-p {
+.instructor p {
     font-size: 1rem;
-    color: purple;
-    text-align: center;
-    font-family: Garamond;
-
+    font-family: 'Garamond', serif;
+    margin-top: 0;
+    color: #7b4aa2;
 }

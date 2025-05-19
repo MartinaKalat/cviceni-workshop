@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.css'
 
 const WorkshopIntro = (props) => {
     return( <div>
